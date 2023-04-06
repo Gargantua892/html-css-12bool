@@ -1,4 +1,14 @@
-/* colonne */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .col{
     flex-grow: 1;
     flex-basis: 0;
@@ -7,7 +17,6 @@
 
 [class*="col-"]{
     flex: 0 0 auto;
-    background-color: darkcyan;
 }
 
 .col-1{
