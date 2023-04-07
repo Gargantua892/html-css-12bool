@@ -20,6 +20,10 @@
 .nested div>*{
     background-color: red;
 }
+
+body section:nth-child(2){
+    margin: 20px 0px;
+}
 /* fine debug */
 
 
